@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="brass" x1="15" y1="12" x2="48" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5DE9A"/>
+      <stop offset=".54" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#B88937"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="#5C001E"/>
+  <path transform="translate(0 -6.5)" fill="url(#brass)" d="M13 24h17v2h-2c-2.1 0-2.5 1.1-1.5 3.6L34 47l7.8-17.6c1-2.3.5-3.4-1.7-3.4H38v-2h13v2h-1.2c-2 0-3.4 1.4-4.6 4L35 53h-4.3L20.2 30c-1.1-2.5-2.4-4-4.7-4H13z"/>
+</svg>

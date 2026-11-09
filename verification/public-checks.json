@@ -1,0 +1,147 @@
+{
+  "checked_at_utc": "2026-11-09T15:50:44.137501+00:00",
+  "origin": "https://varnam-gifts-motion.thanish3475.chatgpt.site",
+  "certificate_validation": "Python default TLS certificate verification enabled",
+  "scope": "Anonymous HTTP smoke checks; not a third-party certification or exhaustive penetration test. The public response still used the previous release during this check.",
+  "passed": 11,
+  "total": 11,
+  "results": [
+    {
+      "path": "/",
+      "expected_status": 200,
+      "status": 200,
+      "bytes": 60917,
+      "final_url": "https://varnam-gifts-motion.thanish3475.chatgpt.site/",
+      "missing_security_headers": [],
+      "sets_cookie": true,
+      "framing_denied": true,
+      "pass": true,
+      "public_brand_page": true,
+      "old_brand_absent": true,
+      "twelve_secure_minimum_order_links": true,
+      "security_headers": {
+        "strict-transport-security": "max-age=31536000",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "content-security-policy": "default-src 'self'; script-src 'self' 'sha256-fSDXAEjyfraEQfuwqEswS6zPJRGY6PSW3WaKNtz4LLg=' 'sha256-OBTN3RiyCV4Bq7dFqZ5a2pAXjnCcCYeTJMO2I/LYKeo=' 'sha256-1OsNPWFlI5VEY6ScHAjHeKyYexlHdVeMZBlp7xlwRfU='; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; style-src-elem 'self'; style-src-attr 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; frame-ancestors 'none'",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), clipboard-read=(), clipboard-write=(self)",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin"
+      }
+    },
+    {
+      "path": "/robots.txt",
+      "expected_status": 200,
+      "status": 200,
+      "bytes": 98,
+      "final_url": "https://varnam-gifts-motion.thanish3475.chatgpt.site/robots.txt",
+      "missing_security_headers": [],
+      "sets_cookie": true,
+      "framing_denied": true,
+      "pass": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "expected_status": 200,
+      "status": 200,
+      "bytes": 188,
+      "final_url": "https://varnam-gifts-motion.thanish3475.chatgpt.site/sitemap.xml",
+      "missing_security_headers": [],
+      "sets_cookie": true,
+      "framing_denied": true,
+      "pass": true
+    },
+    {
+      "path": "/images/hero.webp",
+      "expected_status": 200,
+      "status": 200,
+      "bytes": 113854,
+      "final_url": "https://varnam-gifts-motion.thanish3475.chatgpt.site/images/hero.webp",
+      "missing_security_headers": [],
+      "sets_cookie": true,
+      "framing_denied": true,
+      "pass": true
+    },
+    {
+      "path": "/varnam-mark.svg",
+      "expected_status": 200,
+      "status": 200,
+      "bytes": 616,
+      "final_url": "https://varnam-gifts-motion.thanish3475.chatgpt.site/varnam-mark.svg",
+      "missing_security_headers": [],
+      "sets_cookie": true,
+      "framing_denied": true,
+      "pass": true
+    },
+    {
+      "path": "/launch-missing-page",
+      "expected_status": 404,
+      "status": 404,
+      "bytes": 9989,
+      "final_url": "https://varnam-gifts-motion.thanish3475.chatgpt.site/launch-missing-page",
+      "missing_security_headers": [],
+      "sets_cookie": true,
+      "framing_denied": true,
+      "pass": true
+    },
+    {
+      "path": "/.env",
+      "expected_status": 404,
+      "status": 404,
+      "bytes": 9989,
+      "final_url": "https://varnam-gifts-motion.thanish3475.chatgpt.site/.env",
+      "missing_security_headers": [],
+      "sets_cookie": true,
+      "framing_denied": true,
+      "pass": true
+    },
+    {
+      "path": "/.git/config",
+      "expected_status": 404,
+      "status": 404,
+      "bytes": 9989,
+      "final_url": "https://varnam-gifts-motion.thanish3475.chatgpt.site/.git/config",
+      "missing_security_headers": [],
+      "sets_cookie": true,
+      "framing_denied": true,
+      "pass": true
+    },
+    {
+      "path": "/package.json",
+      "expected_status": 404,
+      "status": 404,
+      "bytes": 9989,
+      "final_url": "https://varnam-gifts-motion.thanish3475.chatgpt.site/package.json",
+      "missing_security_headers": [],
+      "sets_cookie": true,
+      "framing_denied": true,
+      "pass": true
+    },
+    {
+      "path": "/lib/catalog.js",
+      "expected_status": 404,
+      "status": 404,
+      "bytes": 9989,
+      "final_url": "https://varnam-gifts-motion.thanish3475.chatgpt.site/lib/catalog.js",
+      "missing_security_headers": [],
+      "sets_cookie": true,
+      "framing_denied": true,
+      "pass": true
+    },
+    {
+      "path": "/?q=%3Cscript%3ElaunchProbe()%3C%2Fscript%3E",
+      "expected_status": 200,
+      "status": 200,
+      "bytes": 60917,
+      "final_url": "https://varnam-gifts-motion.thanish3475.chatgpt.site/?q=%3Cscript%3ElaunchProbe()%3C%2Fscript%3E",
+      "missing_security_headers": [],
+      "sets_cookie": true,
+      "framing_denied": true,
+      "pass": true,
+      "input_not_reflected": true
+    }
+  ],
+  "matches_packaged_html_policy": false,
+  "build_commit": "fe2bcdcbb6aaf75bae859a2999c075563e57e309"
+}
