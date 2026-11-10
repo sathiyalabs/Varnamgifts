@@ -2,6 +2,8 @@
 
 A festive gift catalogue built with the Next.js App Router, Tailwind CSS, Framer Motion, GSAP and Lenis. Product cards open WhatsApp with the named item and the 25-item minimum order.
 
+[Browse the live gift catalogue](https://varnam-gifts-motion.thanish3475.chatgpt.site/)
+
 ## Run locally
 
 Use Node.js 22 or newer.
